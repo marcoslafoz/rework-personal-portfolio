@@ -1,0 +1,14 @@
+---
+import { ThemeToggle } from '@/components/ThemeToggle'
+---
+
+<div class="flex w-full flex-row items-center justify-between px-10 py-6">
+  <span class="grayscale-100"><ThemeToggle client:visible /></span>
+  <span
+    class="font-secondary flex flex-row items-center justify-between gap-10 text-xl font-semibold"
+  >
+    <a class="cursor-pointer opacity-60 hover:opacity-100" href="#"> {'<trabajo/>'}</a>
+    <a class="cursor-pointer opacity-60 hover:opacity-100" href="#"> {'<sobre-mí/>'}</a>
+    <a class="cursor-pointer opacity-60 hover:opacity-100" href="#"> {'<contactame/>'}</a>
+  </span>
+</div>
